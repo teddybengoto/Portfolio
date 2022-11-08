@@ -10,10 +10,10 @@ class Healder extends React.Component {
             <div className="header"> 
               <nav className="navbar navbar-light bg-light">
                 <div className="container">
-                    <a className="navbar-brand w-45" href="/">
+                    <a className="navbar-brand w-45 btn" href="/">
                     CV
                     </a>
-                    <a className=" navbar-brand w-45"  href="/project">
+                    <a className=" navbar-brand w-45 btn "  href="/project">
                     Projects
                     </a>
                 </div>

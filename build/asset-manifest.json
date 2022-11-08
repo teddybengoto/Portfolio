@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c3b23fd.css",
+    "main.js": "/static/js/main.68b50c17.js",
+    "static/media/profil.webp": "/static/media/profil.9769efc8c91147ebc1a2.webp",
+    "static/media/agence-la-panthere.webp": "/static/media/agence-la-panthere.c409cd3b38be383794c5.webp",
+    "static/media/Ohmyfood.webp": "/static/media/Ohmyfood.4f65785555513a767bb9.webp",
+    "static/media/DefaultProject.webp": "/static/media/DefaultProject.f7040e2668a039d8ddc0.webp",
+    "index.html": "/index.html",
+    "main.7c3b23fd.css.map": "/static/css/main.7c3b23fd.css.map",
+    "main.68b50c17.js.map": "/static/js/main.68b50c17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c3b23fd.css",
+    "static/js/main.68b50c17.js"
+  ]
+}
