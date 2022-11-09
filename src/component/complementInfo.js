@@ -9,7 +9,7 @@ class ComplementInfo extends React.Component {
       return (
           <div className="">
               <div className="d-flex justify-content-around my-4">
-                  <h2 className="text-white">TEDDY BENGOTO</h2>
+                  <h2 className="text-white text-center">TEDDY BENGOTO</h2>
               </div>
               <div className="d-flex justify-content-around my-5">
                  <Image className="" src={profilPic} alt="photo profil Teddy BENGOTO" />

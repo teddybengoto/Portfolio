@@ -11,8 +11,10 @@ class Project extends React.Component {
       return (
         <div className="mx-2 my-2">
             <Card style={{ width: '18rem' }} className="text-center">
-                <Card.Img               
-                variant="top" src={this.props.image?require("../img/"+this.props.image):defaultImage}/>
+                <Card.Img  
+                className="img"             
+                variant="top" 
+                src={this.props.image?require("../img/"+this.props.image):defaultImage}/>
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
                     <Card.Text>
@@ -21,7 +23,7 @@ class Project extends React.Component {
                     <Card.Subtitle className="mb-2  text-muted">Competance:</Card.Subtitle>
                     {this.props.competances.map((competance,i)=>{
                         return(
-                            <Badge className="mb-2" key={i} pill bg="info">
+                            <Badge className="mb-2" key={i} pill bg="success">
                                 {competance }
                             </Badge>)                                                      
                     })}

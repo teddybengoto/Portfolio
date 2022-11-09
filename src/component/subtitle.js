@@ -40,7 +40,7 @@ class Subtitle extends React.Component {
       }
       return (
           <div className="d-flex justify-content-start align-items-center  ms-4 mt-3 ">
-                <div className="icon rounded-circle bg-primary d-flex justify-content-center align-items-center me-2">
+                <div className="icon rounded-circle bg-blue d-flex justify-content-center align-items-center me-2">
                   {
                   getIcon(this.props.type) 
                   }

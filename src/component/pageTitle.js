@@ -5,7 +5,8 @@ function PageTitle() {
     let title = "DÉVELOPPEUR WEB JAVASCRIPT"
     
     return (
-        <div className="text-primary d-flex justify-content-center ">
+        
+        <div className="d-flex justify-content-around my-4 text-center blue-text">
         <h1>
             {title}</h1>
         </div>

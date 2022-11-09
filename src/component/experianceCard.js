@@ -1,4 +1,6 @@
 import React from "react";
+import Badge from 'react-bootstrap/Badge';
+
 
 class Experiences extends React.Component {
     render() {
@@ -7,21 +9,23 @@ class Experiences extends React.Component {
               <div className="card-body">
 
                 <h3 className="">{this.props.title}</h3>
-                <p className="text-primary">{this.props.dateStart} à {this.props.dateEnd}</p>
-                <h4 className="text-primary">Missions: </h4>
-                <ul>
+                <p className="blue-text my-0">{this.props.dateStart} à {this.props.dateEnd}</p>
+                <h4 className="blue-text my-0">Missions: </h4>
+                <ul className="mb-0">
                     {this.props.experiences.map((experience,i)=>{
                         return(
                             <li  key={i}>{experience}</li>
                         )
                     })}
                 </ul>
-                <h5 className="text-primary">Competances: </h5>
+                <h5 className="blue-text my-0">Competances: </h5>
 
                 <div className="d-flex justify-content-between">
                         {this.props.competances.map((competance,i)=>{
                             return(
-                                <div  key={i}>{competance}</div>
+                                <Badge className="my-1" key={i} pill bg="success">
+                                {competance }
+                               </Badge>
                             )
                         })}                                                                               
                 </div>

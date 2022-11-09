@@ -1,23 +1,27 @@
-.text-primary{
+.blue-text{
     color: #004aad !important;
 }
-.text-white{
-    color: white;
-}
 
-.bg-primary{
+
+/*.bg-primary{
     background-color: #004aad !important;
+}*/
+.bg-blue{
+    background-color: #004aad;
 }
 .bg-green{
     color: #7ed975 !important;
 }
+
 .bg-grey{
     color: #d9d9d9 !important;
 }
+
 a{
     text-decoration: none ;
     color: black;
 }
+
 .icon{
     
     width: 2.5rem;
@@ -26,16 +30,21 @@ a{
 
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: #2C3E50!important;
 }
+
 h1{
     font-size: 24px;
 }
+
 h2{
     font-size:18px;
 }
+
 h3, h4, p,span,ul{
     font-size: 14px;
 }
+
 h1,h2,h3,h4{
     font-weight: bold;
 }
@@ -44,24 +53,27 @@ aside{
     background-color: #004aad;
     width: 40%;
 }
+
 section{
     width: 60%;
     background-color: #F8F9F9;
 }
+
 img{
     width: 80%;
 }
-.w-45{
-    width: 45%;
+
+.w-45r{
+    width: 40%;
 }
-footer{
-    color: white;
-    background-color: #2C3E50;
-}
-header{
-    background-color: #2E86C1;
-}
-img{
+
+.img{
     height: 10rem;
     object-fit: cover;
 }
+
+.cv{
+    width: 70%!important;
+    min-width: 35rem;
+}
+
