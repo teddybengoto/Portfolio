@@ -1,0 +1,27 @@
+[
+    {
+        "title":"DÉVELOPPEUR WEB",
+        "dateStart":"Mars 2022",
+        "dateEnd":"Novembre 2022",
+        "school":"Openclassrooms"
+    },
+    {
+        "title":"ÉCOLE D’INGÉNIEUR EN INFORMATIQUE INDUSTRIEL",
+        "dateStart":"2017",
+        "dateEnd":"2021",
+        "school":"Polytech Tours (Tours)"
+    },
+    {
+        "title":"LICENCE PRO AUTOMATISME RÉSEAU ET TÉLÉMAINTENANCE",
+        "dateStart":"2016",
+        "dateEnd":"2017",
+        "school":"IUT de l'Aisne (Cuffies-France)"
+    }
+    ,
+    {
+        "title":"DUT GÉNIE ÉLECTRIQUE ET INFORMATIQUE INDUSTRIEL",
+        "dateStart":"2014",
+        "dateEnd":"2016",
+        "school":"IUT de l'Aisne (Cuffies-France)"
+    }
+]

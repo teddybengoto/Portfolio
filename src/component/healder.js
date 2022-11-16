@@ -1,8 +1,12 @@
 import  '../css/css.css'
 import React, { useEffect, useState } from "react";
-import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router-dom';
 
+import { useNavigate } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Healder =()=> {
    
@@ -13,7 +17,7 @@ const Healder =()=> {
       const handleClick =(e)=>{
         e.preventDefault();
         setpage(!page);
-        //navigate("/project");
+
       }
 
       useEffect(()=>{
@@ -23,47 +27,43 @@ const Healder =()=> {
                 
       return (
 
-          <>
-             <div  className="d-flex justify-content-centers align-items-center header mb-3"> 
-              <Button 
-                className="rounded-0 w-50 border-end "
-                variant="secondary" 
-                size='lg'
-                active={!page}
-                onClick={handleClick}
-                >
-                Cv
-              </Button>
-              <Button 
-                className="rounded-0 w-50 border-start"
-                variant="secondary" 
-                size='lg'
-                active={page}
-                onClick={handleClick}
-                >
-                Projects
-                
+          <div >
+             <div  className="d-flexd justify-content-center align-items-center header  rounded-5 fixed-top"> 
+              
+             <Navbar collapseOnSelect expand="lg" variant="light">
+                <Container  >
+                  <Navbar.Brand  className='text-white ms-1' >Teddy BENGOTO</Navbar.Brand>
+                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                  <Navbar.Collapse id="responsive-navbar-nav">
 
-              </Button>
-             
+                  <Nav className="me-auto text-white">
+                  <Nav.Link className='text-white bold' onClick={handleClick}> {!page?"Projects":'Accueil'}</Nav.Link>
+                    {
+                    !page?
+                      <>
+                        <Nav.Link className='text-white bold' href="#presentation">Présentation</Nav.Link>
+                        <Nav.Link className='text-white bold' href ="#experience">Experience</Nav.Link>
+                        <Nav.Link className='text-white bold' href="#formation">Formation</Nav.Link>
+                        <Nav.Link className='text-white bold' href="#competences">Compétences</Nav.Link>
+                        <Nav.Link className='text-white bold' href="#offer">Service</Nav.Link>
+                      </>
+                    :""
+                    }
+
+                  </Nav>
+                  </Navbar.Collapse>
+                  <Navbar.Brand  className='text-white ms-1' href="https://drive.google.com/file/d/1_EPRHhTuGaNYz9iBgIa2ijihf4rYQuxe/view?usp=sharing">
+                    Cv
+                    <FontAwesomeIcon icon={faDownload} size="2xs"  />
+                    
+                  </Navbar.Brand>
+                </Container>
+             </Navbar>            
 
             </div>           
-          </>
+          </div>
          
       );
   }
   export default Healder;
 
-
-/*class Healder extends React.Component () {
-   
-    render() {
-                
-        return (<></>
-            
-           
-        )
-      }
-}
-
-export default Healder;*/

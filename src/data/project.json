@@ -1,0 +1,42 @@
+[{
+    "title":"Ohmyfood",
+    "description":"L'objectif est de faire l'intégration du site 100% mobile représentant répertorie les menus de restaurants gastronomiques Ohmyfood",
+    "competances":["CSS","HTML","Responsive design"],
+    "urlTest":"https://teddybengoto.github.io/Ohmyfood/",
+    "urlCode":"https://github.com/teddybengoto/Ohmyfood",
+    "image":"Ohmyfood.webp",
+    "features":["Animation css"]
+
+
+},
+{
+    "title":"La Panthère",
+    "description":"L'objectif est de faire l'intégration du site 100% mobile représentant répertorie les menus de restaurants gastronomiques Ohmyfood",
+    "competances":["CSS","HTML","SEO","Accessibilité","Optimisation du référencement"],
+    "urlTest":"https://teddybengoto.github.io/Ohmyfood/",
+    "urlCode":"https://github.com/teddybengoto/Ohmyfood",
+    "image":"agence-la-panthere.webp",
+    "features":["SEO"]
+},
+{
+    "title":"Groupomania",
+    "description":"L'objectif est de faire l'intégration du site 100% mobile représentant répertorie les menus de restaurants gastronomiques Ohmyfood",
+    "competances":["CSS","HTML","SEO","Accessibilité","Optimisation du référencement"],
+    "urlTest":"https://teddybengoto.github.io/Ohmyfood/",
+    "urlCode":"https://github.com/teddybengoto/Ohmyfood",
+    "image":null,
+    "features":["Créer un compt","Login","Post"]
+
+},
+{
+    "title":"La Panthère",
+    "description":"L'objectif est de faire l'intégration du site 100% mobile représentant répertorie les menus de restaurants gastronomiques Ohmyfood",
+    "competances":["CSS","HTML","SEO","Accessibilité","Optimisation du référencement"],
+    "urlTest":"thdt",
+    "urlCode":"",
+    "image":null,
+    "features":null
+
+}
+
+]

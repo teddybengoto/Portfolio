@@ -7,11 +7,12 @@ import Healder from "./component/healder";
 import Footer from "./component/footer";
 
 
+
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Healder/>
+     <Healder/>
     <Routes>
       <Route path='/' element={<Cv/>}/>
       <Route path='/project' element={<ProjectList/>}/>

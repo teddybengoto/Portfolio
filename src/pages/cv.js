@@ -1,54 +1,78 @@
 import  '../css/css.css'
+
 import Experiences from "../component/experianceCard";
-import PageTitle from "../component/pageTitle";
 import Subtitle from "../component/subtitle";
 import Graduation   from "../component/graduationCard";
 import Skills   from "../component/skills";
 import SoftWare from '../component/software';
-import ComplementInfo from '../component/complementInfo';
+
+import dataExperiences from "../data/experience.json";
+import graduations from '../data/graduation.json';
+import skills from '../data/skills.json';
+import contact from '../data/contact.json';
+import About from '../component/about';
+import Offer from '../component/offer';
+
+
 
 function Cv() {
    
-
     return (
-        <div className="d-flex justify-content-center m-auto mp-2 border border-2 cv">
-            <aside className="">
-                < ComplementInfo />      
-            </aside>
-            <section>
-                <PageTitle/>
+        <div className="mt-5 ">
+            <section className="d-flex flex-column align-items-center justify-content-center pb-3 "
+
+            id='presentation'
+            >
+             <Subtitle 
+                    type="about"
+                    title="À propos de moi"
+                />
+            <div className='d-flex justify-content-center align-items-center pt-4'>
+                            <About abouts={contact.abouts} />
+            </div>
+
+    
+            </section>
+            <section 
+            className="d-flexd justify-content-center align-items-center pb-3 border-top border-bottom"
+            id='experience'
+            >
+
                 {/*********************************************
                  * 
                  *     EXPERIENCES PROFESSIONNELLES
                  * 
                  **********************************************/}
 
-                <Subtitle 
-                    type="experience"
-                    title="EXPERIENCES PROFESSIONNELLES"
-                />
-                <Experiences 
-                    title="ETUDIANT ENTREPRENEUR"
-                    dateStart="Mars 2020"
-                    dateEnd="Octobre 2021"
-                    experiences={["Réalisation du business plan",
-                        "Management de projet",
-                        "Développeur Back-End"]}
-                    competances={["Management project","nodeJS","React"]}
-                />
-                <Experiences 
-                    title="ETUDIANT ENTREPRENEUR"
-                    dateStart="Mars 2020"
-                    dateEnd="Octobre 2021"
-                    experiences={["Réalisation du business plan",
-                        "Management de projet",
-                        "Développeur Back-End"]}
-                    competances={["Management project","nodeJS","React"]}
-                />
+                    <Subtitle 
+                        type="experience"
+                        title="EXPERIENCES PROFESSIONNELLES"
+                    />
+               
+                <div className="d-flex flex-column justify-content-center align-items-center pt-4">
+                {
+                    dataExperiences.map((dataExperience,i)=>{
+                        return(
+                            <Experiences 
+                               key={i}
+                               dataExperiences={dataExperience}
+                            />
+                        )
+                      }) 
+                }
 
+                </div>
+                </section>
+
+                <section
+                    className="d-flexd justify-content-center align-items-center pb-3 bg-b border-bottom "
+                    id='formation'
+                >
+
+               
                 {/*********************************************
                  * 
-                 *     FORMATIONS
+                 *     Graduations
                  * 
                  **********************************************/}
 
@@ -57,58 +81,57 @@ function Cv() {
                     type="formation"
                     title="FORMATIONS"
                 />
-                <Graduation 
-                    title="DÉVELOPPEUR WEB JAVASCRIPT"
-                    dateStart="Mars 2022"
-                    dateEnd="Octobre 2022"
-                    school="Openclassrooms"
-                />
-                <Graduation 
-                    title="ÉCOLE D’INGÉNIEUR EN INFORMATIQUE INDUSTRIEL"
-                    dateStart="2017"
-                    dateEnd="2021"
-                    school="Polytech Tours (Tours)"
-                />
-                <Graduation 
-                    title="LICENCE PRO AUTOMATISME RÉSEAU ET TÉLÉMAINTENANCE"
-                    dateStart="2016"
-                    dateEnd="2017"
-                    school="IUT de l'Aisne (Cuffies-France)"
-                />
-                <Graduation 
-                    title="DUT GÉNIE ÉLECTRIQUE ET INFORMATIQUE INDUSTRIEL"
-                    dateStart="2014"
-                    dateEnd="2016"
-                    school="IUT de l'Aisne (Cuffies-France)"
-                />
+                <div className='d-flex flex-column justify-content-center align-items-center pt-4'>
+                    
+                    {
+                        graduations.map((graduation,i)=>{
+                           return( <Graduation
+                                    key={i}
+                                    graduation={graduation}
+                                    />
+                            );
+                        })
+                    }
+                   
+                </div>
+                </section>
 
                 {/*********************************************
                  * 
-                 *     COMPÉTENCES
+                 *     Skills
                  * 
                  **********************************************/}
 
+                <section 
+                   className="pb-3 border-bottom"
+                   id='competences'>
+                    <Subtitle 
+                        type="competence"
+                        title="COMPÉTENCES"
+                    />
+                    <div className="d-flex flex-column justify-content-center align-items-center pt-4">
+    
+                        <Skills 
 
-                <Subtitle 
-                    type="competence"
-                    title="COMPÉTENCES"
-                />
-
-                <Skills
-                    title="LANGAGES INFORMATIQUES"
-                    skills=  {[{"skill":"HTLM","level":"3"},{"skill":"Css","level":"3"},{"skill":"JS","level":"4"},{"skill":"C#","level":"3"},{"skill":"PHP","level":"2"},{"skill":"C","level":"4"},{"skill":"C++","level":"2"}, {"skill":"SQL","level":"3"}]}     
-                />
-                <Skills
-                    title="LES PLUS"
-                    skills=  {[{"skill":"Node JS","level":"3"},{"skill":"React","level":"2"},{"skill":"Express","level":"4"},{"skill":"NPM","level":"4"},{"skill":"AJAX","level":"2"},{"skill":"JQuery","level":"2"},{"skill":"mongoBD","level":"2"}, {"skill":"SQL","Git":"4"}]}     
-                />
-                <SoftWare
-                title="Logiciels"
-                skills={["Visual studio","Visual studio code" , "Insomnia","Visual studio","Visual studio code" , "Insomnia"]}         
-                />
-
-            </section>
-        
+                            skills = {skills}
+                        
+                        />
+    
+                        <SoftWare
+                        title="LOGICIELS"
+                        skills={["Visual studio","Visual studio code" , "Insomnia","Visual studio","Visual studio code" , "Insomnia"]}         
+                        />
+                    </div>
+                    </section>
+                    <section id='offer' className=' justify-content-center align-items-center border-bottom'>
+                    <Subtitle 
+                        type="service"
+                        title="Ce que je propose"
+                    />
+                    <div className='d-flex justify-content-center align-items-center pt-4'>
+                        <Offer offers={contact.offers} />
+                    </div>
+                </section>
 
         </div>
     );

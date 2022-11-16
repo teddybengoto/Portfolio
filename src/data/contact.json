@@ -1,0 +1,22 @@
+{
+    "name":"TEDDY BENGOTO",
+    "image":"",
+    "phone":"07 50 18 95 20",
+    "mail":"teddybengoto@gmail.com",
+    "adresse":"19 rue alfred maury 77100 Meaux",
+
+    "interests":{
+            "interest":["Football", "Documentaire", "Nouvelles technologies"],
+            "travel" : "Gabon, Espagne, Belgique, Pays-Bas, Tunisie, Irlande, Ghana"
+        },
+
+    "diverLicence":true,
+    "english":"B2",
+    "abouts":["Titulaire d'un diplôme d'ingénieur en informatique industrielle, je me suis spécialisé en tant que développeur web fullstack.", "Passionné d'informatique, ce qui me motive, c'est le développement d'applications qui vont faciliter la vie des utilisateurs au quotidien."," J’utilise principalement les technologies de runtime time node.js pour le développement back end  et la bibliothèque React pour le développement front.","En solitaire comme en équipe, je suis prêt à travailler aussi bien avec les petites entreprises qu'avec les grands groupes."],
+    "offers":["Aide à l'élaboration de l'expression du besoin",
+             "Aide la rédaction du cahier des charges",
+             "Développement d'application web",
+             "Rédaction de la documentation, test et déploiement de l'application",
+             "Formation des utilisateurs"]
+
+}

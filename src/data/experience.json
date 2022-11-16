@@ -1,0 +1,34 @@
+[{
+"title":"ÉTUDIANT ENTREPRENEUR",
+"dateStart":"Mars 2020",
+"dateEnd":"Décembre 2021",
+"experiences":[
+        "Définition d'un projet entrepreneurial",
+        "Réalisation du business plan",
+        "Rédaction du cahier des charges pour la création d'un site de quiz à but éducatif",
+        "Réalisation design UX/UI, charte graphique et du logo",
+        "Constitution d'une équipe de développeurs",
+        "Développeur 1er version du site web"
+    ],
+"competances":["Identifier les parties prenantes du projet","Management project","Evaluer les risques","Développeur Back-End","Gestion d'équipe"]
+},
+{
+    "title":"ALTERNANT AU CEA MARCOULE",
+    "dateStart":"2017",
+    "dateEnd":"2021",
+    "experiences":[
+        "Mise en place d’un moyen de transfert automatisé de données environnementales du réseau industriel de Marcoule vers le système CRITER de l’IRSN",
+        "Mise en place d’un moyen permettant d’effectuer l’acquisition, le traitement et l’affichage des données métrologique sur un écran de supervision"],
+    "competances":["Management project","C#","VBA","Codra Panorama studio","Transmission série"]
+}
+,
+{
+    "title":"ALTERNANT À VERALLIA OIRY",
+    "dateStart":"2016",
+    "dateEnd":"2017",
+    "experiences":[
+        "Remplacement d’un IHM MAGELIS par un PROFACE: programmation des synoptique, gestion de la communication avec l’automate, pilotage des actionneurs",
+        "Participation aux changements de fabrication : paramétrage des machines. Participation aux opérations de maintenance"],
+    "competances":["ladder","Grafcet"]
+}]
+

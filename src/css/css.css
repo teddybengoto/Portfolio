@@ -2,18 +2,28 @@
     color: #004aad !important;
 }
 
-
-/*.bg-primary{
-    background-color: #004aad !important;
-}*/
 .bg-blue{
-    background-color: #004aad;
+    background-color: #12334A;
 }
 .bg-green{
-    color: #7ed975 !important;
+    color: rgb(104, 224, 207);
+    margin-bottom: 10rem;
 }
 
-.bg-grey{
+.header{
+    background-color: #12334A;
+    height: 4rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.text-green{
+    color: rgb(104, 224, 207)!important;
+}
+
+.text-grey{
     color: #d9d9d9 !important;
 }
 
@@ -24,13 +34,14 @@ a{
 
 .icon{
     
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
 }
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #2C3E50!important;
+    background-color:#1B4F72!important;
 }
 
 h1{
@@ -49,31 +60,45 @@ h1,h2,h3,h4{
     font-weight: bold;
 }
 
-aside{
-    background-color: #004aad;
-    width: 40%;
-}
-
-section{
-    width: 60%;
-    background-color: #F8F9F9;
-}
 
 img{
     width: 80%;
 }
-
-.w-45r{
-    width: 40%;
-}
-
-.img{
-    height: 10rem;
+.profilImg{
+    height: 12.5rem;
+    width: 10rem;
+    border-radius: 5rem;
     object-fit: cover;
 }
 
-.cv{
-    width: 70%!important;
-    min-width: 35rem;
+.w-45{
+    width: 40%;
+}
+.w-30{
+    width: 33%;
+}
+.w-80{
+    width: 90%;
+}
+.img{
+    height: 10rem;
+    width: 90%;
+    object-fit: cover;
+}
+
+.cercle{
+    width: 10rem;
+    height: 10rem;
+    color: black!important;
+    border-radius: 50%;
+    background-color: rgb(104, 224, 207)!important;
+
+}
+
+.skill{
+    width: 3rem;
+    height: 1rem;
+    background-color: #12334A;
+    margin-bottom: .5rem;
 }
 
