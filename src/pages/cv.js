@@ -28,7 +28,7 @@ function Cv() {
                     title="À propos de moi"
                 />
             <div className='d-flex justify-content-center align-items-center pt-4'>
-                            <About abouts={contact.abouts} />
+                <About abouts={{...contact}}  />
             </div>
 
     
