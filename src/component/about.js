@@ -22,7 +22,7 @@ const About = (abouts)=>{
                     
                 }
               </div>
-              <div className="d-flexd w-75 p-2 my-4 align-items-center justify-content-center rounded shadow text-white">
+              <div className="w-75 p-2 my-4 rounded shadow text-white">
 
                 <div className="me-2" >
                     <FontAwesomeIcon

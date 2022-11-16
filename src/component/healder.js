@@ -52,7 +52,7 @@ const Healder =()=> {
 
                   </Nav>
                   </Navbar.Collapse>
-                  <Navbar.Brand  className='text-white ms-1' href="https://drive.google.com/file/d/1_EPRHhTuGaNYz9iBgIa2ijihf4rYQuxe/view?usp=sharing">
+                  <Navbar.Brand  className='text-white ms-1' href="https://drive.google.com/file/d/1S7ZylTPLvCIKx1MlnPBt6u-ChE6TasJ8/view?usp=sharing">
                     Cv
                     <FontAwesomeIcon icon={faDownload} size="2xs"  />
                     

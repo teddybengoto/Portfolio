@@ -1,10 +1,10 @@
 [
     {
         "title":"LANGAGES INFORMATIQUES",
-        "skills": [{"skill":"HTLM","level":"3"},{"skill":"CSS","level":"3"},{"skill":"JS","level":"4"},{"skill":"C#","level":"3"},{"skill":"PHP","level":"2"},{"skill":"C","level":"4"},{"skill":"C++","level":"2"}, {"skill":"SQL","level":"3"}]     
+        "skills": [{"skill":"HTLM","level":"4"},{"skill":"CSS","level":"4"},{"skill":"JavaScript","level":"4"},{"skill":"C#","level":"3"},{"skill":"PHP","level":"2"},{"skill":"C","level":"4"},{"skill":"C++","level":"2"}, {"skill":"SQL","level":"3"}]     
     },
     {
         "title":"LES PLUS",
-        "skills": [{"skill":"Node JS","level":"3"},{"skill":"React","level":"2"},{"skill":"Express","level":"4"},{"skill":"NPM","level":"4"},{"skill":"AJAX","level":"2"},{"skill":"JQuery","level":"2"},{"skill":"mongoBD","level":"2"}, {"skill":"SQL","Git":"4"}]     
+        "skills": [{"skill":"Node JS","level":"4"},{"skill":"React","level":"3"},{"skill":"Express","level":"4"},{"skill":"NPM","level":"5"},{"skill":"AJAX","level":"2"},{"skill":"JQuery","level":"2"},{"skill":"mongoBD","level":"4"}, {"skill":"SQL","Git":"4"}]     
     }
 ]
