@@ -25,6 +25,12 @@ const Project =(project) => {
                 >
                     <Modal.Header closeButton >
                     <Modal.Title className="text-green">{project.project.title}</Modal.Title>
+                    {
+                        !project.project.state?
+                        <span className="text-danger ms-2"> Ce site est actuellement en maintenance </span>
+                        : ""
+                    }
+                    
                     </Modal.Header>
                     <Modal.Body className="bg-blue text-white">
                     {project.project.description}

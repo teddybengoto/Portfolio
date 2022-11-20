@@ -10,7 +10,7 @@
         "Constitution d'une équipe de développeurs",
         "Développeur 1er version du site web"
     ],
-"competances":["Identifier les parties prenantes du projet","Management project","Evaluer les risques","Développeur Back-End","Gestion d'équipe"]
+"competances":["Identifier les parties prenantes du projet","Management projet","Evaluer les risques","Développeur Back-End","Gestion d'équipe"]
 },
 {
     "title":"ALTERNANT AU CEA MARCOULE",
@@ -19,7 +19,7 @@
     "experiences":[
         "Mise en place d’un moyen de transfert automatisé de données environnementales du réseau industriel de Marcoule vers le système CRITER de l’IRSN",
         "Mise en place d’un moyen permettant d’effectuer l’acquisition, le traitement et l’affichage des données métrologique sur un écran de supervision"],
-    "competances":["Management project","C#","VBA","Codra Panorama studio","Transmission série"]
+    "competances":["Management projet","C#","VBA","Codra Panorama studio","Transmission série"]
 }
 ,
 {
