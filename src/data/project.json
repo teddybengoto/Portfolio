@@ -37,13 +37,13 @@
     },
     {
         "title":"Djoyow",
-        "description":"Djoyow est une plate-forme qui permet de créer des quizz a but éducatifs afin d'autres utilisateurs puissent jouer.",
+        "description":"Djoyow est une plate-forme qui permet de créer des quizz a but éducatifs afin que d'autres utilisateurs puissent jouer.",
         "competances":["Gestion d'équipe","Management projet","Next.js","Node.js","Boostrap","CSS","HTML","Javascript","Mongodb","API"],
         "urlTest":"https://djoyowquiz-app.herokuapp.com/",
         "urlCode":null,
         "image":"Djoyow.webp",
         "features":["Création, modification, suppression compte",
-                    "Création, modification, suppression et jouer une quizz",
+                    "Création, modification, suppression et jouer un quizz",
                     "Cryptage des données sensibles",
                     "Implémenter un stockage de données sécurisé avec Mongodb"
                 ],
