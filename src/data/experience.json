@@ -5,7 +5,7 @@
 "experiences":[
         "Définition d'un projet entrepreneurial",
         "Réalisation du business plan",
-        "Rédaction du cahier des charges pour la création d'un site de quiz à but éducatif",
+        "Rédaction du cahier des charges pour la création d'un site de quizz à but éducatif",
         "Réalisation design UX/UI, charte graphique et du logo",
         "Constitution d'une équipe de développeurs",
         "Développeur 1er version du site web"
@@ -18,7 +18,7 @@
     "dateEnd":"2021",
     "experiences":[
         "Mise en place d’un moyen de transfert automatisé de données environnementales du réseau industriel de Marcoule vers le système CRITER de l’IRSN",
-        "Mise en place d’un moyen permettant d’effectuer l’acquisition, le traitement et l’affichage des données métrologique sur un écran de supervision"],
+        "Mise en place d’un moyen permettant d’effectuer l’acquisition, le traitement et l’affichage des données météo sur un écran de supervision"],
     "competances":["Management projet","C#","VBA","Codra Panorama studio","Transmission série"]
 }
 ,
