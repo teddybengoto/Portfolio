@@ -1,17 +1,18 @@
-.blue-text{
+.blue-text {
     color: #004aad !important;
 }
 
-.bg-blue{
+.bg-blue {
     background-color: #12334A;
 }
-.bg-green{
+
+.bg-green {
     color: rgb(104, 224, 207);
     margin-bottom: 10rem;
 }
 
 
-.header{
+.header {
     background-color: #12334A;
     height: 4rem;
     width: 90%;
@@ -20,86 +21,100 @@
     font-weight: bold;
 }
 
-.text-green{
-    color: rgb(104, 224, 207)!important;
+.text-green {
+    color: rgb(104, 224, 207) !important;
 }
 
-.text-grey{
+.text-grey {
     color: #d9d9d9 !important;
 }
 
-a{
-    text-decoration: none ;
+a {
+    text-decoration: none;
     color: black;
 }
 
-.icon{
-    
+.icon {
+
     width: 4rem;
     height: 4rem;
     font-size: 3rem;
 }
 
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
-    background-color:#1B4F72!important;
+    background-color: #1B4F72 !important;
 }
 
-h1{
+h1 {
     font-size: 24px;
 }
 
-h2{
-    font-size:18px;
+h2 {
+    font-size: 18px;
 }
 
-h3, h4, p,span,ul{
+h3,
+h4,
+p,
+span,
+ul {
     font-size: 14px;
 }
 
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
     font-weight: bold;
 }
 
 
-img{
+img {
     width: 80%;
 }
-.profilImg{
+
+.profilImg {
     height: 12.5rem;
     width: 10rem;
     border-radius: 5rem;
     object-fit: cover;
 }
 
-.w-45{
+.w-45 {
     width: 40%;
 }
-.w-30{
+
+.w-30 {
     width: 33%;
 }
-.w-80{
+
+.w-80 {
     width: 90%;
 }
-.img{
+
+.img {
     height: 10rem;
     width: 90%;
     object-fit: cover;
 }
 
-.cercle{
+.cercle {
     width: 10rem;
     height: 10rem;
-    color: black!important;
+    color: black !important;
     border-radius: 50%;
-    background-color: rgb(104, 224, 207)!important;
+    background-color: rgb(104, 224, 207) !important;
 
 }
 
-.skill{
+.skill {
     width: 3rem;
     height: 1rem;
     background-color: #12334A;
     margin-bottom: .5rem;
 }
 
+.project {
+   height: 22rem;
+}

@@ -101,7 +101,7 @@ const Project =(project) => {
                 </Modal>
             </div>
         
-            <div className="text-white mx-2 px-2 my-2 w-25 text-black shadow rounded d-flex flex-column align-items-center justify-content-center  ">
+            <div className="text-white mx-2 px-2 my-2 w-25 text-black shadow rounded d-flex flex-column align-items-center justify-content-center project ">
                 <Image
                     className="img w-75 mt-2"  
                     alt={project.project.title}      
